@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hangman Lite</title>
-</head>
-<body>
-  
-  <script src="./main.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hangman Lite</title>
+  </head>
+  <body>
+    <input id="guess" placeholder="guess a letter" />
+    <button id="submit-guess" type="submit">Submit Guess</button><br />
+    <label>Guesses Remaining: </label><span id="guesses-remaining">20</span>
+    <hr />
+    <br />
+    <div id="display-guess"></div>
+    <script src="./main.js"></script>
+  </body>
 </html>

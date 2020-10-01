@@ -20,3 +20,18 @@
 */
 
 // YOUR CODE HERE
+const word = "JavaScript";
+const letter = document.querySelector("#guess");
+
+const guessButton = document.querySelector("#submit-guess");
+
+let guess = letter.value;
+let wordReveal = ['J', 'a', 'v', 'a', 'S', 'c', 'r', 'i', 'p', 't'];
+let guesses = document.querySelector("#guesses-remaining");
+let guessed = 0;
+
+guessButton.addEventListener('click', function() {
+   while () {
+      
+   }
+})
